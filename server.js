@@ -1,6 +1,10 @@
 const express = require('express');
 const path = require('path');
 
+const hbs = require('express-handlebars');
+app.engine('.hbs', hbs());
+app.set('view engine', '.hbs');
+
 const app = express();
 
 app.use((req, res, next) => {
