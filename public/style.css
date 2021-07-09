@@ -22,7 +22,11 @@ a {
     font-size: 0.8rem;
 }
 
-
+img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
 
 label {
     display: block;
